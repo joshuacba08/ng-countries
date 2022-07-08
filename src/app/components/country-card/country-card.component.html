@@ -1,0 +1,15 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{ country.name | titlecase }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="country.flag" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        {{country.description}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+</mat-card>
