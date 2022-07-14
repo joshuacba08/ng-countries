@@ -2,7 +2,7 @@
     <mat-card-header>
       <mat-card-title>{{ country.name | titlecase }}</mat-card-title>
     </mat-card-header>
-    <img mat-card-image [src]="country.flag" alt="Photo of a Shiba Inu">
+    <img mat-card-image [src]="country.flag" [alt]="'Imagen de la bandera de ' + country.name">
     <mat-card-content>
       <p>
         {{country.description}}
