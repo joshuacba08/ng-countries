@@ -15,7 +15,7 @@ export class AppComponent {
       id:1,
       name:"uruguay",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      flag:"https://media.istockphoto.com/photos/uruguay-national-flag-waving-on-pole-against-sunny-blue-sky-high-picture-id1129174937?k=20&m=1129174937&s=612x612&w=0&h=yohmeYykGaVK3epwoVmfSY8FKnpG6a8P8TKfCSBrDzY="
+      flag:"https://img.freepik.com/foto-gratis/bandera-uruguay_1401-254.jpg?w=2000"
     },
     {
       id:2,
@@ -27,7 +27,7 @@ export class AppComponent {
       id:3,
       name:"mexico",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      flag:"https://images.pexels.com/photos/12668023/pexels-photo-12668023.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      flag:"https://images.pexels.com/photos/1573471/pexels-photo-1573471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
   ]
 
