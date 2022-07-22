@@ -1,0 +1,26 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+
+.mat-card-container{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+    .title{
+        margin: 20px 0;
+    }
+
+    .form-field{
+        margin: 8px 0;
+    }
+
+    .submit{
+        margin:20px 0;
+    }
+}
+
