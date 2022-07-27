@@ -6,3 +6,8 @@ export interface User {
     password: string;
     id:       string;
 }
+
+export interface DataLogin {
+    email:    string;
+    password: string;
+}

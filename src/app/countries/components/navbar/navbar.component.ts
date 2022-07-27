@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ConnectableObservable } from 'rxjs';
+// import { ConnectableObservable } from 'rxjs';
 
 @Component({
   selector: 'app-navbar',
@@ -7,7 +7,7 @@ import { ConnectableObservable } from 'rxjs';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-
+  showFiller = false;
   title = 'ng-countries';
 
   constructor(){ }
