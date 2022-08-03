@@ -9,6 +9,7 @@ import { CountriesService } from '../../services/countries.service';
 })
 export class CountriesListComponent implements OnInit {
   countries:any;
+  loader=true;
 
   constructor( private countriesService: CountriesService ){}
 
@@ -19,7 +20,10 @@ export class CountriesListComponent implements OnInit {
   }
 
   getCountriesFromService(){
-    this.countriesService.getCountries().subscribe( resp => this.countries = resp);
+    this.countriesService.getCountries().subscribe( resp => {
+      this.countries = resp;
+      this.loader = false;
+    });
   }
 
 }

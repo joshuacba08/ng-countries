@@ -1,5 +1,6 @@
 <mat-grid-list class="cards-container" cols="3" rowHeight="420px">
 
+    <mat-spinner class="cards-container__spinner"  *ngIf="loader"></mat-spinner>
     <mat-grid-tile *ngFor="let country of countries">
       <app-country-card  
       [country]="country"

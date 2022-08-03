@@ -8,6 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule } from '@angular/material/grid-list';
 import {MatListModule} from '@angular/material/list';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -26,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatIconModule,
     MatGridListModule,
     MatListModule,
+    MatProgressSpinnerModule,
     MatSidenavModule,
     MatSliderModule,
     MatToolbarModule,

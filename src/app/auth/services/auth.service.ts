@@ -11,7 +11,7 @@ export class AuthService {
 
   private baseUrl: string = 'https://fake-login-api-production.up.railway.app';
   auth!:LoginResp;  
-  constructor(private http: HttpClient) { 
+  constructor(private http: HttpClient) {  
   }
   setAuth(auth:LoginResp){
     this.auth = auth;
@@ -23,5 +23,16 @@ export class AuthService {
   login(data: DataLogin){
     console.table(data);
     return this.http.post<LoginResp>(`${this.baseUrl}/api/auth/login`,data)
+  }
+
+  saveLogin(auth:LoginResp){
+    localStorage.setItem('login',JSON.stringify(auth));
+  }
+
+  getLocalStorage(key:string){
+    return localStorage.getItem(key);
+  }
+  deleteLocalStorage(key:string){
+    localStorage.removeItem(key);
   }
 }
