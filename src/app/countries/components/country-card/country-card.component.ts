@@ -11,11 +11,9 @@ export class CountryCardComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    console.log(this.country);
   }
 
   goTo(id: string){
-    console.log(id);
     this.router.navigate([`/countries/detail/${id}`]);
   }
 
